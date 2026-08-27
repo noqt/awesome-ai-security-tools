@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Latest snapshot: 2026-08-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Latest snapshot: 2026-08-27. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -59,6 +59,7 @@ AI/LLM tools that triage, deduplicate, prioritize, or validate the output of sca
   - **Related:** [agent-audit](https://github.com/scadastrangelove/agent-audit) · [asamm](https://github.com/scadastrangelove/asamm)
 - **[seclab-taskflow-agent](https://github.com/GitHubSecurityLab/seclab-taskflow-agent)** 🟢 — YAML-driven taskflow agent framework for triaging CodeQL/SAST alerts and filtering false positives. *(GitHub Security Lab)* *(★ 221 · updated 2026-08-17)*
   - **Related:** [SigmaOptimizer](https://github.com/YusukeJustinNakajima/SigmaOptimizer)
+- **[Lumi Trace](https://github.com/noqt/Lumi-Trace)** 🟢 — Local deterministic SARIF triage that ranks known scanner findings, reconstructs review context, and exports a verifiable evidence package without uploading source. *(NOQT)* — **note:** young project with no independent adoption signal yet. *(★ 0 · updated 2026-08-27)*
 - **[honeyslop](https://github.com/gadievron/honeyslop)** 🟢 — Code-canary decoys to triage AI-hallucinated ("slop") vulnerability reports flooding bug-bounty programs. *(★ 97 · updated 2026-05-20)*
 - **[nano-analyzer](https://github.com/weareaisle/nano-analyzer)** 🟢🔬 — Minimal three-stage LLM pipeline (context → scan → skeptical triage) for zero-day discovery in C/C++. *(AISLE)* *(★ 307 · updated 2026-04-14)*
 - **[SigmaOptimizer](https://github.com/YusukeJustinNakajima/SigmaOptimizer)** 🟢 — Generates, tests, and refines Sigma rules from real logs with false-positive checking. *(★ 11 · updated 2025-08-01)*

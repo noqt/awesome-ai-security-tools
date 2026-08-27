@@ -55,6 +55,25 @@
           }
         },
         {
+          "name": "Lumi Trace",
+          "repo": "noqt/Lumi-Trace",
+          "org": "NOQT",
+          "desc": "Local deterministic SARIF triage that ranks known scanner findings, reconstructs review context, and exports a verifiable evidence package without uploading source.",
+          "note": "— **note:** young project with no independent adoption signal yet.",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "early_stage"
+          ],
+          "license": "Apache-2.0",
+          "metrics": {
+            "stars": 0,
+            "updated": "2026-08-27",
+            "snapshot": "2026-08-27"
+          }
+        },
+        {
           "name": "honeyslop",
           "repo": "gadievron/honeyslop",
           "desc": "Code-canary decoys to triage AI-hallucinated (\"slop\") vulnerability reports flooding bug-bounty programs.",
