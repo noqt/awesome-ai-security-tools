@@ -1,0 +1,17 @@
+name: Validate Lumi Eggcracker receipt
+
+on:
+  pull_request:
+    paths:
+      - ".github/fixtures/lumi-hosted-proof-receipt-v1.json"
+      - ".github/workflows/validate-lumi-hosted-proof-receipt.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-lumi-receipt:
+    uses: noqt/Lumi-Eggcracker/.github/workflows/validate-hosted-proof-receipt.yml@bf6910dbd83d30a50a486f84ac0fa96a0244e23e
+    with:
+      receipt: .github/fixtures/lumi-hosted-proof-receipt-v1.json
